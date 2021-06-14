@@ -24,7 +24,7 @@ ul {
 }
 
 .site-heading h2 span {
-  color: hsl(240, 65%, 63%);
+  color: hsl(206, 65%, 63%);
 }
 
 .site-heading h4 {
@@ -36,7 +36,7 @@ ul {
 }
 
 .site-heading h4::before {
-  background: hsl(240, 65%, 63%) none repeat scroll 0 0;
+  background: hsl(206, 65%, 63%) none repeat scroll 0 0;
   bottom: 0;
   content: "";
   height: 2px;
@@ -57,22 +57,22 @@ ul {
   padding: 15px;
 }
 
-.we-offer-area .our-offer-carousel .owl-dots .owl-dot span {
+.section_area .our-offer-carousel .owl-dots .owl-dot span {
   background: #ffffff none repeat scroll 0 0;
   border: 2px solid;
   height: 15px;
-  margin: 0 5px;
+  margin: 10px 0 5px;
   width: 15px;
 }
 
-.we-offer-area .our-offer-carousel .owl-dots .owl-dot.active span {
-  background: hsl(240, 65%, 63%) none repeat scroll 0 0;
-  border-color: hsl(240, 65%, 63%);
+.section_area .our-offer-carousel .owl-dots .owl-dot.active span {
+  background: hsl(206, 65%, 63%) none repeat scroll 0 0;
+  border-color: hsl(206, 65%, 63%);
 }
 
-.we-offer-area .item {
+.section_area .item {
   background: #ffffff none repeat scroll 0 0;
-  border-left: 2px solid hsl(240, 65%, 63%);
+  border-left: 2px solid hsl(206, 65%, 63%);
   -moz-box-shadow: 0 0 10px #cccccc;
   -webkit-box-shadow: 0 0 10px #cccccc;
   -o-box-shadow: 0 0 10px #cccccc;
@@ -83,14 +83,14 @@ ul {
   z-index: 1;
 }
 
-.we-offer-area.text-center .item {
+.section_area.text-center .item {
   background: #ffffff none repeat scroll 0 0;
   border: medium none;
   padding: 67px 40px 64px;
 }
 
-.we-offer-area.text-center .item i {
-  background: hsl(240, 65%, 63%) none repeat scroll 0 0;
+.section_area.text-center .item i {
+  background: hsl(206, 65%, 63%) none repeat scroll 0 0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -110,8 +110,8 @@ ul {
   margin-bottom: 25px;
 }
 
-.we-offer-area.text-center .item i::after {
-  border: 2px solid hsl(240, 65%, 63%);
+.section_area.text-center .item i::after {
+  border: 2px solid hsl(206, 65%, 63%);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -129,15 +129,15 @@ ul {
   -o-transition: all 0.35s ease-in-out;
 }
 
-.we-offer-area.item-border-less .item {
+.section_area.item-border-less .item {
   border: medium none;
 }
 
-.we-offer-area .our-offer-items.less-carousel .equal-height {
+.section_area .our-offer-items.less-carousel .equal-height {
   margin-bottom: 30px;
 }
 
-.we-offer-area.item-border-less .item .number {
+.section_area.item-border-less .item .number {
   font-family: "Poppins",sans-serif;
   font-size: 50px;
   font-weight: 900;
@@ -147,39 +147,37 @@ ul {
   top: 30px;
 }
 
-.our-offer-carousel.center-active .owl-item:nth-child(2n) .item,
-.we-offer-area.center-active .single-item:nth-child(2n) .item {
-  background: hsl(240, 65%, 63%) none repeat scroll 0 0;
+
+.section_area.center-active .single-item:nth-child(2n) .item {
+  background: hsl(206, 65%, 63%) none repeat scroll 0 0;
 }
 
-.our-offer-carousel.center-active .owl-item:nth-child(2n) .item i,
-.our-offer-carousel.center-active .owl-item:nth-child(2n) .item h4,
-.our-offer-carousel.center-active .owl-item:nth-child(2n) .item p,
-.we-offer-area.center-active .single-item:nth-child(2n) .item i,
-.we-offer-area.center-active .single-item:nth-child(2n) .item h4,
-.we-offer-area.center-active .single-item:nth-child(2n) .item p {
+
+.section_area.center-active .single-item:nth-child(2n) .item i,
+.section_area.center-active .single-item:nth-child(2n) .item h4,
+.section_area.center-active .single-item:nth-child(2n) .item p {
   color: #ffffff;
 }
 
-.we-offer-area .item i {
-  color: hsl(240, 65%, 63%);
+.section_area .item i {
+  color: hsl(206, 65%, 63%);
   display: inline-block;
   font-size: 60px;
   margin-bottom: 20px;
 }
 
-.we-offer-area .item h4 {
+.section_area .item h4 {
   font-weight: 600;
   text-transform: capitalize;
 }
 
-.we-offer-area .item p {
+.section_area .item p {
   margin: 0;
 }
 
-.we-offer-area .item i,
-.we-offer-area .item h4,
-.we-offer-area .item p {
+.section_area .item i,
+.section_area .item h4,
+.section_area .item p {
   transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -187,8 +185,8 @@ ul {
   -o-transition: all 0.35s ease-in-out;
 }
 
-.we-offer-area .item::after {
-  background: hsl(240, 65%, 63%) none repeat scroll 0 0;
+.section_area .item::after {
+  background: hsl(206, 65%, 63%) none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: -100%;
@@ -203,27 +201,27 @@ ul {
   z-index: -1;
 }
 
-.we-offer-area .item:hover::after {
+.section_area .item:hover::after {
   left: 0;
 }
 
-.we-offer-area .item:hover i,
-.we-offer-area .item:hover h4,
-.we-offer-area .item:hover p {
+.section_area .item:hover i,
+.section_area .item:hover h4,
+.section_area .item:hover p {
   color: #ffffff !important;
 }
 
-.we-offer-area.text-center .item:hover i::after {
+.section_area.text-center .item:hover i::after {
   border-color: #ffffff !important;
 }
 
-.we-offer-area.text-center .item:hover i {
+.section_area.text-center .item:hover i {
   background-color: #ffffff !important;
-  color: hsl(240, 65%, 63%) !important;
+  color: hsl(206, 65%, 63%) !important;
 }
 
-.we-offer-area.text-left .item i {
-  background: hsl(240, 65%, 63%) none repeat scroll 0 0;
+.section_area.text-left .item i {
+  background: hsl(206, 65%, 63%) none repeat scroll 0 0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -239,8 +237,8 @@ ul {
   text-align: center;
 }
 
-.we-offer-area.text-left .item i::after {
-  border: 2px solid hsl(240, 65%, 63%);
+.section_area.text-left .item i::after {
+  border: 2px solid hsl(206, 65%, 63%);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
