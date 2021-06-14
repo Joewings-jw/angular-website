@@ -2,7 +2,7 @@
     <h2 class="section_title">Testimonials</h2>
     <span class="section_subtitle">Feedback from Clients</span>
 
-    <div class="testimonial_container container swiper-container">
+    <swiper class="container swiper-container" [config]="config">
         <div class="swiper-wrapper">
             <!--==================== TESTIMONIAL 1 ====================-->
             <div class="testimonial_content swiper-slide">
@@ -81,5 +81,5 @@
         </div>
         <!--Adding pagination -->
         <div class="swiper-pagination swiper-pagination-testimonial"></div>
-    </div>
+    </swiper>
 </section>
