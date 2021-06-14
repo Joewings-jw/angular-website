@@ -1,7 +1,5 @@
-
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-@import '~bootstrap/dist/css/bootstrap.min.css';
 
 /* VARIABLES CSS */
 :root {
@@ -9,7 +7,7 @@
 
     /* Colors */
     /* Change favorite color */
-    --hue-color: 220; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 240; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color),69%,61%);
@@ -723,7 +721,7 @@ img{
 
 }
 
-/* .footer {
+.footer {
     padding-top: 2rem;
 }
 .footer_container {
@@ -761,7 +759,7 @@ img{
     text-align: center;
     color: var(--text-color);
     margin-top:var(--mb-3);
-} */
+}
 
 .scrollup {
     position:fixed;
@@ -918,7 +916,8 @@ img{
         bottom: initial;
     }
     .header,
-    .main{
+    .main,
+    .footer_container {
         padding: 0 1rem;
     }
 
@@ -1019,8 +1018,9 @@ img{
         width: 768px;
       }
 
-   
-    /* 
+    .footer_container {
+        grid-template-columns: repeat(3, 1fr);
+    }
     .footer_bg {
         padding: 3rem 0 3.5rem;
     }
@@ -1033,7 +1033,7 @@ img{
     }
     .footer_copy {
         margin-top: 4.5rem;
-    } */
+    }
 }
 
 /* large devices 1024 */

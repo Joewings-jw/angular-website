@@ -1,0 +1,153 @@
+
+
+
+footer .main-footer{
+    padding: 30px 10px;	
+    background: rgb(245, 248, 250);
+    
+}
+
+footer ul{	
+    padding-left: 0;	
+    list-style: none;
+}
+
+/* Copy Right Footer */
+.footer-copyright {	
+    background:hsl(240, 75%, 43%);	
+    padding: 10px 0;
+    
+}
+
+.footer-copyright p {	
+    color: #fff;	
+    margin: 1px 0 0;
+}
+
+/*==================== 
+	Widgets 
+====================== */
+.widget{	
+    padding: 20px;	
+    margin-bottom: 40px;
+}
+.widget.widget-last{	
+    margin-bottom: 0px;
+}
+.widget.no-box{	
+    padding: 0;	
+    background-color: transparent;	
+    margin-bottom: 40px;
+	box-shadow: none; 
+    -webkit-box-shadow: none; 
+    -moz-box-shadow: none; 
+    -ms-box-shadow: none; 
+    -o-box-shadow: none;
+}
+.widget.subscribe p{	
+    margin-bottom: 18px;
+}
+.widget li a{	
+    color:hsl(219, 80%, 52%);
+    text-decoration: none;
+}
+.widget li a:hover{	
+    color: hsl(240, 75%, 43%);
+   
+}
+.widget-title {
+    margin-bottom: 20px;
+}
+.widget-title span {
+    background: #839FAD none repeat scroll 0 0;
+    display: block; 
+    height: 1px;margin-top: 25px;
+    position: relative;
+    width: 20%;
+}
+.widget-title span::after {
+    background: inherit;
+    content: "";
+    height: inherit;    
+    position: absolute;
+    top: -4px;
+    width: 50%;
+}
+.widget-title.text-center span,
+.widget-title.text-center span::after {
+    margin-left: auto;
+    margin-right:auto;
+    left: 0;
+    right: 0;
+}
+
+.typo-light h1, 
+.typo-light h2, 
+.typo-light h3, 
+.typo-light h4, 
+.typo-light h5, 
+.typo-light h6,
+.typo-light div,
+.typo-light span,
+.typo-light small{	
+    color: #000;
+}
+
+
+.footer_social {
+    display: inline-block;
+    font-size: 20px;
+    color: hsl(219, 80%, 52%);
+    padding-right: 15px;
+    border-radius: 5px;
+}
+
+#subscribe-box .emailfield {
+    margin: auto;
+}
+
+input[type="text"] {
+    background: rgba(255,255,255,0.075);
+    padding: 10px 15px;
+    color: #000;
+    border: 3px solid rgba(6, 2, 49, 0.1);
+    font-size: 14px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    transition: all 0.2s cubic-bezier(0.4,0,0.2,1);
+    transition-delay: 0.2s;
+    text-align: center;
+    width: 50%;
+}
+
+input.submitbutton.ripplelink {
+    background: hsl(240, 75%, 43%);
+    border: 3px solid rgba(6, 2, 49, 0.3);
+    color: #fff;
+    border-color: hsl(219, 80%, 52%);
+    box-shadow: 0 8px 17px 0 rgba(6, 2, 49, 0.3);
+    transition-delay: 0s;
+    width: 30%;
+    font-size: 14px;
+    /* font-weight: 700; */
+    border: 0px solid;
+    transition: all 0.2s cubic-bezier(0.4,0,0.2,1);
+    padding: 10px 15px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+
+.thumb-content ::before {
+    content: "\f190";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left: 5px;
+    color:hsl(219, 80%, 52%);
+}
+
+
+
+
+

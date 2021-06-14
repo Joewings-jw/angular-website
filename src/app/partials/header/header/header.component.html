@@ -1,0 +1,47 @@
+<header class="header" id="header">
+    <nav class="nav container">
+        <a routerLink="#" class="nav_logo">Joseph</a>
+
+       <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list grid">
+
+                <li class="nav_item"><a [routerLink]="['']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="nav_link">
+                    <i class="uil uil-home nav_icon"></i>Home
+                </a></li>
+                <li class="nav_item"><a [routerLink]="['/about']" routerLinkActive="active" class="nav_link">
+                    <i class="uil uil-user nav_icon"></i>About
+                </a></li>
+                <li class="nav_item"><a [routerLink]="['/skills']" routerLinkActive="active" class="nav_link">
+                    <i class="uil uil-file-alt nav_icon"></i>Skills
+                </a></li>
+                <li class="nav_item"><a [routerLink]="['/services']" routerLinkActive="active" class="nav_link">
+                    <i class="uil uil-file-alt nav_icon"></i>services
+                </a></li>
+                <li class="nav_item"><a [routerLink]="['/portfolio']" routerLinkActive="active" class="nav_link">
+                    <i class="uil uil-scenery nav_icon"></i>Portfolio
+                </a></li>
+                <li class="nav_item"><a [routerLink]="['/contact']" routerLinkActive="active" class="nav_link">
+                    <i class="uil uil-message nav_icon"></i>Contact Me
+                </a></li>
+           
+            </ul>
+           <i class="uil uil-times nav_close" id="nav-close"></i>
+       </div>
+       <div class="nav_btns">
+            <!-- change theme -->
+           <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+           <div class="nav_toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+           </div>
+       </div>
+    </nav>
+</header>
+
+
+
+
+
+
+
+

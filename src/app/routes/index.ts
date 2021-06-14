@@ -1,0 +1,6 @@
+export * from "./home/home/home.component"
+export * from "./about/about/about.component"
+export * from "./skills/skills/skills.component"
+export * from "./services/services/services.component"
+export * from "./portfolio/portfolio/portfolio.component"
+export * from "./contact/contact/contact.component"
