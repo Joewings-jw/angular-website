@@ -706,6 +706,8 @@ img{
     background-color: var(--input-color);
     border-radius: .5rem;
     padding: .75rem 1rem .25rem;
+    height: 5rem;
+
 }
 .contact_label {
     font-size: var(--small-font-size);
@@ -714,7 +716,7 @@ img{
 .contact_input {
     width: 100%;
     background-color: var(--input-color);
-    color:var(--text-color);
+    color:#000;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     border: none;
@@ -1029,6 +1031,7 @@ img{
         width: 100%;
     }
     .contact_inputs {
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: 2fr 3fr 5fr 1fr;
+       
     }
 }
