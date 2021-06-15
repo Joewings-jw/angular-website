@@ -1,9 +1,9 @@
-
+<app-header></app-header>
 <section class="contact section" id="contact">
     <h2 class="section_title">Contact Me</h2>
     <span class="section_subtitle">Get in touch</span>
 
-    <div class="contact_container container grid">
+    <div class="contact_container container">
         <div class="contact_information">
             <i class="uil uil-phone-alt contact_icon"></i>
 
@@ -31,31 +31,40 @@
 
         
     </div>
-    <form action="" class="contact_form container">
+    <form [formGroup]="form" method="post" (ngSubmit)="on_submit()" class="contact_form container">
         <div class="contact_inputs grid">
             <div class="contact_content">
-                <label for="" class="contact_label">Name</label>
-                <input type="text" class="contact_input">
+                <label for="name" class="contact_label">Name</label>
+                <input [formControl]="name" class="contact_input" required>
+                <span class="danger" *ngIf="name.invalid && name.dirty">Invalid name</span>
             </div>
             
+            
             <div class="contact_content">
-                <label for="" class="contact_label">Email</label>
-                <input type="email" class="contact_input">
+                <label for="email" class="contact_label">Email</label>
+                <input [formControl]="email" placeholder="email@example.com" class="contact_input" required>
+                <span class="danger" *ngIf="email.invalid && email.dirty">Enter a valid email</span>
             </div>
     
-            <div class="contact_content">
+            <!-- <div class="contact_content">
                 <label for="" class="contact_label">Project type</label>
                 <input type="text" class="contact_input">
-            </div>
+            </div> -->
             <div class="contact_content">
                 <label for="" class="contact_label">Message</label>
-                <textarea name="" id="" cols="0" rows="0" class="contact_input"></textarea>
+                <textarea [formControl]="message" maxlength="256" placeholder="I'm interested in..." class="contact_input" required></textarea>
+               
+                <input [formControl]="honeypot" class="hidden" type="text" />
+                <div [ngClass]="!submitted? 'hidden' : 'visible'" class="center-text">
+                    <span>{{responseMessage}}</span>
+                </div>
             </div>
+            <button [disabled]="isLoading" class="button button--flex" type="submit">Send message</button>
 
-            <a href="#" class="button button--flex">
+            <!-- <a href="#" class="button button--flex">
                 Send message
                 <i class="uil uil-message button_icon"></i>
-            </a>
+            </a> -->
         </div>
     </form>
 

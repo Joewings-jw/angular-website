@@ -1,0 +1,32 @@
+.hidden {
+	display: none
+}
+.visible {
+	display: block
+}
+.center-text {
+	text-align: center
+}
+
+.danger {
+    display:block;
+    flex-direction: column;
+    color:red;
+    margin-top: 1rem;
+}
+
+button {
+	margin-top: 10px;
+    margin-bottom: 10px;
+	background-color: transparent;
+	color: hsl(var(--hue-color),69%,61%);
+	border: 1px solid black;
+	padding: 4px 16px;
+	transition: 0.4s;
+	width: 100%;
+	margin-top: 10px;
+}
+button:hover:enabled{
+	color: white;
+	background-color: hsl(var(--hue-color),69%,61%);
+}
